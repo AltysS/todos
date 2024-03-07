@@ -1,0 +1,10 @@
+.filterContainer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#active {
+    color: white;
+    background: green;
+    pointer-events: none;
+}

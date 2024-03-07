@@ -1,0 +1,32 @@
+.container {
+    background: white;
+    border-radius: 2%;
+    padding: 40px;
+    min-height: 550px;
+    min-width: 350px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+#heroTitle {
+    font-family: "Arial, sans-serif";
+    font-weight: bolder;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#list {
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 10px 0;
+}
+
+#counterContainer {
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    text-align: center;
+}
